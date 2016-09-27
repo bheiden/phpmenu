@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+margin: 0;
+padding: 0;	
+}
+body {
+background-color: #C0C0C0;
+color: #000000;
+font-family: 'Roboto', sans-serif;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  margin: auto;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+  margin: auto;
+}
+ 
+.nav a:hover {
+  background-color: #C0C0C0;
+  margin: auto;
+  border-radius: 5px;
+}
+ 
+.nav a.active {
+  background-color: #C0C0C0;
+  color: #444;
+  cursor: default;
+  margin: auto;
+  border-radius: 5px;
+}
+
+#tekst {
+text-align: center;
+	
+}
+.footer {
+text-align: center;
+
+	
+}
